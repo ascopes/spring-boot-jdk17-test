@@ -1,0 +1,22 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  compression:
+    enabled: true
+
+  http2:
+    enabled: true
+
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: spring-boot-jdk17-test
+
+  # Coloured logs in IntelliJ console.
+  output:
+    ansi:
+      enabled: ALWAYS
